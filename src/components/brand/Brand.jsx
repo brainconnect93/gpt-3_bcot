@@ -1,10 +1,8 @@
 import React from 'react';
-import './brand.css'
+import './brand.css';
 
-const Brand = () => {
-  return (
-    <div>Brand</div>
-  )
-}
+const Brand = () => (
+  <div>Brand</div>
+);
 
-export default Brand
+export default Brand;

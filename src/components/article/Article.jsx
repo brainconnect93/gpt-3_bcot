@@ -1,10 +1,8 @@
 import React from 'react';
-import './article.css'
+import './article.css';
 
-const Article = () => {
-  return (
-    <div>Article</div>
-  )
-}
+const Article = () => (
+  <div>Article</div>
+);
 
-export default Article
+export default Article;
