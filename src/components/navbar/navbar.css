@@ -80,19 +80,21 @@
 
 .gpt3_navbar-links_container ul li,
 .gpt3_navbar-sign p,
-.gpt3_navbar-menu_container p {
+.gpt3_navbar-menu_container-links ul li,
+.gpt3_navbar-menu_sign p {
   color: var(--color-new);
   list-style: none;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   text-transform: capitalize;
   margin: 0 1rem;
   cursor: pointer;
 }
 
-.gpt3_navbar-links_container ul li a {
+.gpt3_navbar-links_container ul li a,
+.gpt3_navbar-menu_container-links ul li a {
   text-decoration: none;
   color: var(--color-new);
 }
@@ -109,7 +111,7 @@
 }
 
 .gpt3_navbar-sign {
-  margin-left: 22%;
+  margin-left: 18%;
 }
 
 .gpt3_navbar-sign button,
@@ -142,4 +144,57 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.gpt3_navbar-menu_container-links ul {
+  margin: 1rem 0;
+}
+
+.gpt3_navbar-menu_sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3_navbar-links_container {
+    display: none;
+  }
+  
+  .gpt3_navbar-menu {
+    display: flex;
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3_navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_navbar {
+    padding: 2rem;
+  }
+
+  .gpt3_navbar-sign {
+    display: none;
+  }
+
+  .gpt3_navbar-menu_container {
+    top: 40px;
+  }
+
+  .gpt3_navbar-menu_sign {
+    display: block;
+  }
 }
