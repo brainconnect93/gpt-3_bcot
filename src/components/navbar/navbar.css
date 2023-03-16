@@ -1,3 +1,23 @@
-body {
-  margin: 0;
+.gpt3_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.gpt3_navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gpt3_navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.gpt3_navbar-links_logo h2 {
+  width: 62.56px;
+  height: 16.02px;
+  font-size: 20px;
 }
