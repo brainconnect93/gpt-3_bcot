@@ -90,7 +90,7 @@
 
 .gpt3_navbar-links_container ul li a:hover {
   text-decoration: underline;
-  color: var(--color-subtext);
+  color: #ff4b20;
 }
 
 .gpt3_navbar-sign {
@@ -100,7 +100,7 @@
 }
 
 .gpt3_navbar-sign {
-  margin-left: 18%;
+  width: 270px;
 }
 
 .gpt3_navbar-sign button,
