@@ -26,45 +26,50 @@
 }
 
 .gpt3_navbar-links_logo h2 span {
-   background-color: #CA4246;
-   background-image: linear-gradient(89.97deg, #ae67fa 1.84%, #ff4b20);
-   background-size: 100%;
-   background-repeat: repeat;
-   background-clip: text;
+  background-color: #ca4246;
+  background-image: linear-gradient(89.97deg, #ae67fa 1.84%, #ff4b20);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* background-clip: text; */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
 @keyframes rainbow-text-simple-animation-rev {
   0% {
-      background-size: 650%;
+    background-size: 650%;
   }
+
   40% {
-      background-size: 650%;
+    background-size: 650%;
   }
+
   100% {
-      background-size: 100%;
+    background-size: 100%;
   }
 }
 
 @keyframes rainbow-text-simple-animation {
   0% {
-      background-size: 100%;
+    background-size: 100%;
   }
+
   80% {
-      background-size: 650%;
+    background-size: 650%;
   }
+
   100% {
-      background-size: 650%;
+    background-size: 650%;
   }
 }
 
 .gpt3_navbar-links_container ul {
- display: flex;
- flex-direction: row;
- margin-left: 1rem;
- width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  width: 100%;
 }
 
 .gpt3_navbar-links_container ul li,
@@ -96,9 +101,6 @@
 .gpt3_navbar-sign {
   display: flex;
   align-items: center;
-}
-
-.gpt3_navbar-sign {
   width: 270px;
 }
 
@@ -141,7 +143,7 @@
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
-  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .gpt3_navbar-menu_container-links ul {
@@ -156,7 +158,7 @@
   .gpt3_navbar-links_container {
     display: none;
   }
-  
+
   .gpt3_navbar-menu {
     display: flex;
     margin-left: 10rem;
