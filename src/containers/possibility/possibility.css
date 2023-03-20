@@ -62,4 +62,8 @@
   .gpt3_possible-image {
     margin: 1rem 0;
   }
+
+  .gpt3_possible-content {
+    margin-top: 2rem;
+  }
 }
