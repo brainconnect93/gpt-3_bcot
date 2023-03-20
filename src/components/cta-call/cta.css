@@ -8,3 +8,41 @@
   border-radius: 1rem;
   background: var(--gradient-bar);
 }
+
+.gpt3_cta-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: var(--color-blog);
+}
+
+.gpt3_cta-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000;
+}
+
+.gpt3_cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.gpt3_cta-btn button {
+  color: #fff;
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  background: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
