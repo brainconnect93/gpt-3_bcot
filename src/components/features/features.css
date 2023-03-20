@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  margin: row;
+  margin: 1rem;
 }
 
 .gpt3_features-container_feature-title {
