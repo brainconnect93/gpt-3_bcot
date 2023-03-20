@@ -2,8 +2,8 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #ff4b20 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #ff4b20 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
   --color-bg: #040c18;
   --color-footer: #031b34;
   --color-blog: #042c54;
