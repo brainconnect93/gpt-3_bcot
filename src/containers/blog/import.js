@@ -1,8 +1,8 @@
 import blog1 from '../../assets/blog1.svg';
 import blog2 from '../../assets/blog2.svg';
-import blog3 from '../../assetsblog3p.svg';
-import blog4 from '../../asseblog4box.svg';
-import blog5 from '../../asblog5opify.svg';
+import blog3 from '../../assets/blog3.svg';
+import blog4 from '../../assets/blog4.svg';
+import blog5 from '../../assets/blog5.svg';
 
 export {
   blog1,
