@@ -16,3 +16,36 @@
   width: 100%;
   height: 100%;
 }
+
+.gpt3_blog-container_article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+.gpt3_blog-container_article-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: var(--color-new);
+}
+
+.gpt3_blog-container_article-content h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  color: var(--color-new);
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.gpt3_blog-container_article-content p:last-child {
+  cursor: pointer;
+}
+
