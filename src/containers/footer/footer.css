@@ -123,3 +123,34 @@
   line-height: 14px;
   color: var(--color-new);
 }
+
+@media screen and (max-width: 850px) {
+  .gpt3_footer-header h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_footer-header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .gpt3_footer-links div {
+    margin: 1rem 0;
+
+  }
+
+  .gpt3_footer-btn p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gpt3_footer-header h1 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+}
