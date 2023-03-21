@@ -21,7 +21,7 @@ const Blog = () => (
           title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
         />
       </div>
-      <div className="gpt3_blog-container_groupA">
+      <div className="gpt3_blog-container_groupB">
         <Article
           imageUrl={blog2}
           date="Sep 26, 2021"
