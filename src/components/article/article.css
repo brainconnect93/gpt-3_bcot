@@ -7,8 +7,6 @@
 }
 
 .gpt3_blog-container_article-image {
-  width: 100%;
-  height: 100%;
   background: var(--color-footer);
 }
 

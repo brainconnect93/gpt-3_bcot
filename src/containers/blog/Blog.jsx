@@ -10,6 +10,7 @@ const Blog = () => (
     <div className="gpt3_blog-header">
       <h1 className="gradient_text">
         A lot is happening,
+        <br />
         We are blogging about it.
       </h1>
     </div>

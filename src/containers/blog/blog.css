@@ -12,9 +12,8 @@
 .gpt3_blog-header h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 62px;
-  line-height: 75px;
-  letter-spacing: -0.04em;
+  font-size: 52px;
+  line-height: 65px;
 }
 
 .gpt3_blog-container {
@@ -55,5 +54,21 @@
 @media screen and (max-width: 700px) {
   .gpt3_blog-container_groupB {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gpt3_blog-container_groupA .gpt3_blog-container_article {
+    width: 100%;
+  }
+
+  .gpt3_blog-header h1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_blog-header h1 {
+    font-size: 34px;
+    line-height: 42px;
   }
 }
