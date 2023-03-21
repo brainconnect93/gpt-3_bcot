@@ -1,3 +1,43 @@
-body {
-  margin: 0;
+.gpt3_footer {
+  color: var(--color-new);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+}
+
+.gpt3_footer-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gpt3_footer-header h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.gpt3_footer-btn {
+  display: flex;
+  border: 1px solid var(--color-new);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.gpt3_footer-btn p {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-new);
+  word-spacing: 2px;
 }

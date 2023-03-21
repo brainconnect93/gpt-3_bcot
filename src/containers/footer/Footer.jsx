@@ -13,7 +13,10 @@ const Footer = () => (
 
     <div className="gpt3_footer-links">
       <div className="gpt3_footer-links_logo">
-        <h3>GPT3_<span>BCOT</span></h3>
+        <h3>
+          GPT3_
+          <span>BCOT</span>
+        </h3>
         <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
       </div>
 
@@ -36,6 +39,10 @@ const Footer = () => (
         <p>085-132567</p>
         <p>info@payme.net</p>
       </div>
+    </div>
+
+    <div className="gpt3_footer-copyright">
+      <p>© 2021 GPT-3. All rights reserved.</p>
     </div>
   </div>
 );
