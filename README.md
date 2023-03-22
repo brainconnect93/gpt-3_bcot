@@ -1,70 +1,186 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+<div align="center">
+  <img src="https://camo.githubusercontent.com/fb037e90eb92f3f53e79f2f0fdada922a8e6f3664140710f0c3691a808b675b6/68747470733a2f2f692e6962622e636f2f5452354c57397a2f696d6167652e706e67" alt="logo" width="140"  height="auto" />
+  <br/>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 GPT3_BCOT <a name="about-project"></a>
 
-### `npm run build`
+**GPT3_BCOT** is a simple website for :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a name="built-with"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Client</summary>
+  <ul>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>Javascript</li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>WebPack</li>
+    <li>Node js</li>
+    <li>React</li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Features -->
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Make simple GPT3 webpage.
+- Add great features and headings.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right"><a href="#readme-top">👆</a></p>
 
-### Code Splitting
+<!-- LIVE DEMO -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Analyzing the Bundle Size
+Currently, there are not Live Demo available. I will let you know when it's available ASAP!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right"><a href="#readme-top">👆</a></p>
 
-### Making a Progressive Web App
+<!-- Getting Started -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
+To run the project locally, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+In order to run this project you need to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Install [Git](https://git-scm.com/)
+- Install [Node](https://nodejs.org/en/)
+- Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
 
-### `npm run build` fails to minify
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the repo into your local machine:
+
+```bash
+git clone https://github.com/brainconnect93/gpt-3_bcot.git
+```
+
+Install the dependencies using npm:
+```bash
+npm install
+```
+
+### Usage
+
+To start the development server run
+```bash
+npm start
+```
+- this command will start the development server on `localhost:8080` address
+
+To create and optimized production build run
+```bash
+npm run build
+```
+- this command will create a bunduled chunks of code inside `dist/` folder
+
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Afolabi Akorede**
+
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Build core functionality
+- Build full website with sub-pages.
+- Add tests.
+- Deploy the page.
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- Contributing -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/brainconnect93/gpt-3_bcot/issues).
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- Show your support -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly leave a star for it.
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank Microverse for helping us in the journey to become a Fullstack developer 🌹
+- I would like to acknowledge JS Mastery for the complete Tutorial that enhance building of this project. 🌹
+- Appreciate the Figma design template used for the design.
+
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right"><a href="#readme-top">👆</a></p>
